@@ -8,8 +8,10 @@ namespace Ciclos
 {
     class Program
     {
+        
         public static void Main()
         {
+            //Inicializando Clases
             ContarHasta10For contarhast10For = new ContarHasta10For();
             ContarHasta10While contarhasta10While = new ContarHasta10While();
             ContarHasta10Do contarhasta10Do = new ContarHasta10Do();

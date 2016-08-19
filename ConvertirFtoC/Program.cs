@@ -10,7 +10,7 @@ namespace ConvertirFtoC
         {
             double c = (f - 32) / 1.8;
 
-            return c;
+            return c; 
         }
         static void Main(string[] args)
         {
