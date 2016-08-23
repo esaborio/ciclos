@@ -7,22 +7,25 @@ namespace Ciclos
 
         public void contar()
         {
-            int i = 0;
+            int i = 1;
+            double result = 1;
+            int Dato1;
 
             Console.Write("Usando While\n\n");
-            Console.Write("Mostrar los números del 1 al 10:\n");
-            Console.Write("---------------------------------------");
-            Console.Write("\n\n");
+            Console.Write("Digite el Valor por Factoriar:\n");
+            Dato1 = int.Parse(Console.ReadLine());
+            
 
-            Console.WriteLine("Empezando conteo.:");
-
-            while (i <= 10)
+            while (i <= Dato1)
             {
-                Console.Write("{0} ", i);
+                result *= i;
                 i++;
             }
-            Console.Write("\n\n");
+
+            Console.Write("El valor Factorail es:" + result);
             Console.ReadKey();
+
+            Console.Clear();
 
         }
 
