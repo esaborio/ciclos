@@ -14,18 +14,19 @@ namespace Ciclos
             int x = 0;
             int resultado = 1;
             int n = 0;
-            Console.WriteLine("Potencia usando ciclo For");
+            int i = 1;
+            Console.WriteLine("Potencia usando While");
             Console.WriteLine("Digite digite X \n Inserta el numero:");
             x = int.Parse(Console.ReadLine());
             Console.WriteLine("Digite digite N \n Inserta el numero:");
             n = int.Parse(Console.ReadLine());
 
-            while (n != 1)
+            while (i <= n)
             {
                 resultado = resultado * x;
-                x = x - 1;
+                i = i + 1;
             }
-            Console.WriteLine("Factorial de " + resultado);
+            Console.WriteLine("La potencia es " + resultado);
             Console.ReadKey();
 
 

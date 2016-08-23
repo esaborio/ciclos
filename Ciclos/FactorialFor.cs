@@ -13,7 +13,8 @@ namespace Ciclos
         {
             int numero, resultado = 1;
             Console.WriteLine("Usando ciclo For");
-            Console.WriteLine("Factorial de un numero \n Inserta el numero:"); 
+            Console.WriteLine("Factorial de un numero \n Inserta el numero:");
+
             numero = int.Parse(Console.ReadLine());
 
             for (int i = 1; i <= numero; i++)

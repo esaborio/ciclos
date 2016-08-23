@@ -21,8 +21,8 @@ namespace Ciclos
             PotenciaFor potenciafornumber = new PotenciaFor();
             PotenciaWhile potenciawhilenumber = new PotenciaWhile();
 
-            potenciawhilenumber.contar();
             potenciafornumber.contar();
+            potenciawhilenumber.contar();
             factorialfornumber.contar();
             factorialwhilenumber.contar();
             contarhast10For.contar();
