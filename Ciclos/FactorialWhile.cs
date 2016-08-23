@@ -11,7 +11,7 @@ namespace Ciclos
             public void contar()
 
         {
-                
+            Console.WriteLine("Usando ciclo While");
             Console.WriteLine("Introduce un numero para calcular su factorial: ");
             int numero = Convert.ToInt32(Console.ReadLine());
             int fact = numero;
