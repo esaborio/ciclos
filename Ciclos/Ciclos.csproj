@@ -51,6 +51,9 @@
     <Compile Include="ContarHasta10For.cs" />
     <Compile Include="ContarHasta10While.cs" />
     <Compile Include="FactorialWhile.cs" />
+    <Compile Include="PotenciaDowhile.cs" />
+    <Compile Include="PotenciaFor.cs" />
+    <Compile Include="PotenciaWhile.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

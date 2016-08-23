@@ -18,7 +18,9 @@ namespace Ciclos
             ContarHasta10ForEach contarhasta10ForEach = new ContarHasta10ForEach();
             FactorialWhile factorialwhilenumber = new FactorialWhile();
             FactorialFor factorialfornumber = new FactorialFor();
+            PotenciaFor potenciafornumber = new PotenciaFor();
 
+            potenciafornumber.contar();
             factorialfornumber.contar();
             factorialwhilenumber.contar();
             contarhast10For.contar();
