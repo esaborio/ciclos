@@ -19,7 +19,9 @@ namespace Ciclos
             FactorialWhile factorialwhilenumber = new FactorialWhile();
             FactorialFor factorialfornumber = new FactorialFor();
             PotenciaFor potenciafornumber = new PotenciaFor();
+            PotenciaWhile potenciawhilenumber = new PotenciaWhile();
 
+            potenciawhilenumber.contar();
             potenciafornumber.contar();
             factorialfornumber.contar();
             factorialwhilenumber.contar();
