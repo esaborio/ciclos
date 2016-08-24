@@ -43,10 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ContarHasta10Do.cs" />
+    <Compile Include="EjecutarFactorialDo.cs" />
     <Compile Include="ContarHasta10ForEach.cs" />
     <Compile Include="ContarHasta10For.cs" />
     <Compile Include="ContarHasta10While.cs" />
+    <Compile Include="PotencialDoWhile.cs" />
+    <Compile Include="PotencialFor.cs" />
+    <Compile Include="PotencialWhile.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
