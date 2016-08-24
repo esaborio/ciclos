@@ -14,7 +14,7 @@ namespace Ciclos
             int resultado = 1;
             int n = 0;
             int i = 1;
-            Console.WriteLine("Potencia usando While");
+            Console.WriteLine("Potencia usando DoWhile");
             Console.WriteLine("Digite digite X \n Inserta el numero:");
             x = int.Parse(Console.ReadLine());
             Console.WriteLine("Digite digite N \n Inserta el numero:");
